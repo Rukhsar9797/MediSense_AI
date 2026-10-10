@@ -41,52 +41,6 @@ MediSense AI/
 └── test_backend_new.py
 ```
 
-## ⚙️ Installation and Setup
-
-### 1. Clone the repository
-
-```bash
-git clone <YOUR_REPOSITORY_URL>
-cd "MediSense AI"
-```
-
-Alternatively, download and extract the project folder.
-
-### 2. Create a virtual environment
-
-**Windows PowerShell:**
-
-```powershell
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-```
-
-### 3. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Configure the Groq API
-
-Create a `.env` file in the project root using `.env.example` as a template:
-
-```dotenv
-GROQ_API_KEY=your_groq_api_key_here
-GROQ_MODEL=openai/gpt-oss-120b
-```
-
-Replace the placeholder with your own valid API key. Keep `.env` private and never commit it to GitHub.
-
-## ▶️ Run the Application
-
-Start the Streamlit dashboard from the project root:
-
-```bash
-streamlit run app.py
-```
-
-Open the local URL displayed in the terminal to use MediSense AI.
 
 ## 🧠 How It Works
 
@@ -104,8 +58,6 @@ To test the backend independently, run:
 python test_backend_new.py
 ```
 
-Ensure the datasets and `.env` configuration are available before testing. AI functionality requires a valid Groq API key unless a fallback response is used.
-
 ## 🔮 Future Improvements
 
 - More detailed adherence trend analysis.
@@ -114,11 +66,6 @@ Ensure the datasets and `.env` configuration are available before testing. AI fu
 - Enhanced dashboard visualizations.
 - Expanded automated testing and data validation.
 
-## 🔐 Privacy and Disclaimer
-
-This project uses synthetic data for demonstration. Do not upload real patient information to public repositories.
-
-MediSense AI is an educational hackathon prototype, not a medical device. Its risk indicators are rule-based and are not clinically validated. It does not provide medical diagnosis or recommend medication changes.
 
 ## 👥 Team
 

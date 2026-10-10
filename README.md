@@ -1,3 +1,4 @@
+## MediSense AI
 **MediSense AI** is an AI-powered medication adherence tracking system designed to help users monitor medication routines and understand their adherence patterns.
 
 ## Project Overview

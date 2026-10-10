@@ -35,4 +35,4 @@ The project combines data analytics and AI-generated insights to present medicat
 
 MediSense AI aims to make medication adherence data easier to understand by combining tracking, risk indicators, visual analytics, and AI-generated guidance in one platform.
 
-*Disclaimer: MediSense AI is a demonstration project, not a medical diagnostic system. Its insights are informational and should not replace professional medical advice.*
+*Disclaimer: MediSense AI is a demonstration project, not a medical diagnostic system. 
